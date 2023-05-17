@@ -1,0 +1,27 @@
+
+
+p {
+    font-family: 'Georgia Regular', Times, serif;
+    font-family: 'Arial Regular', Verdana, sans-serif;
+}
+
+
+@font-face {
+        font-family: 'Georgia Regular';
+        src: url('Georgia.eot');
+        src: url('Georgia.eot?#iefix') format('embedded-opentype'),
+        url('Georgia.woff') format('woff'),
+        url('Georgia.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial Regular';
+    src: url('ArialMT.eot');
+    src: url('ArialMT.eot?#iefix') format('embedded-opentype'),
+    url('ArialMT.woff') format('woff'),
+    url('ArialMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
