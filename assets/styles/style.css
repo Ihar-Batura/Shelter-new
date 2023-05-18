@@ -257,8 +257,30 @@ p {
     background: #FFFFFF;
 }
 
+.help__title {
+    text-align: center;
+    padding: 80px 0 60px;
+}
 
+.help__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1026px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
 
+.help__tool {
+    margin-bottom: 55px;
+    width: 20%;
+    text-align: center;
+    
+}
+
+.tool__image {
+    padding-bottom: 30px;
+}
 
 
 
