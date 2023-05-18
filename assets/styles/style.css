@@ -322,7 +322,50 @@ p {
 }
 
 .footer {
-    
+    width: 100%;
+    max-width: 1280px;
+    background-image: url('../images/footer-gradient-background.svg');
+    background-repeat: no-repeat;
+   margin: 0 auto;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout-2-column {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 740px;
+    padding-bottom: 60px;
+}
+
+
+.column__title {
+    max-width: 279px;
+    color: #FFFFFF;
+    margin-top: 56px;
+}
+
+.column__link {
+    margin-top: 40px;
+    display: flex;
+    text-decoration: none;
+}
+
+.link__text {
+    color: #F1CDB3;
+}
+
+.link__image {
+    margin-right: 20px;
+}
+
+.footer__image {
+    max-height: 310px;
+    margin-top: 40px;
 }
 
 
