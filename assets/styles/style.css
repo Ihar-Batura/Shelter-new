@@ -282,6 +282,48 @@ p {
     padding-bottom: 30px;
 }
 
+.in-addition {
+    background: #F6F6F6;
+}
+
+.in-addition__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.in_addition__title {
+    max-width: 300px;
+}
+
+.In-addition__bank {
+    margin: 20px 0;
+}
+
+.bank__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 349px;
+    padding: 10px 15px;
+    background: #F1CDB3;
+    border-radius: 9px;
+}
+
+.in_addition__text {
+    max-width: 380px;
+    font-weight: normal;
+}
+
+.in_addition__image {
+    margin: 91px 30px 110px 0;
+}
+
+.in-addition__content {
+    margin: 80px 0 100px;
+}
+
+.footer {
+    
+}
 
 
 
