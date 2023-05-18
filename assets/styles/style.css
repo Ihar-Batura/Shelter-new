@@ -83,6 +83,11 @@ p {
     color: #4C4C4C;
 }
 
+.header {
+    
+    
+}
+
 .wrapper {
     width: 100%;
     max-width: 1200px;
@@ -93,6 +98,13 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    left:50%;
+    top: 30px;
+    transform:translate(-50%, -50%);
+    
+    
+
 }
 
 .logo__link {
@@ -122,6 +134,10 @@ p {
     line-height: 2.4rem;
     color: #CDCDCD;
     cursor: pointer;
+}
+
+.navigation__link:hover {
+    color: #FAFAFA;
 }
 
 .navigation__link:first-child {
@@ -160,6 +176,12 @@ p {
     padding: 13px 43px;
     border: 2px solid #F1CDB3;
     border-radius: 100px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
 }
 
 .button_colored {
@@ -232,6 +254,12 @@ p {
     border-radius: 100px;
     max-height: 52px;
     margin-top: 192px;
+    cursor: pointer;
+}
+
+.slider__arrow:hover {
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
 }
 
 .card__name {
