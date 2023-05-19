@@ -83,11 +83,6 @@ p {
     color: #4C4C4C;
 }
 
-.header {
-    
-    
-}
-
 .wrapper {
     width: 100%;
     max-width: 1200px;
@@ -101,10 +96,7 @@ p {
     position: absolute;
     left:50%;
     top: 30px;
-    transform:translate(-50%, -50%);
-    
-    
-
+    transform:translate(-50%, -50%); /* центрует header*/
 }
 
 .logo__link {
